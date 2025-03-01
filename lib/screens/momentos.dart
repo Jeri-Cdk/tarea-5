@@ -19,19 +19,19 @@ class MomentosScreen extends StatelessWidget {
   final List<Momento> momentos = [
     Momento(
       titulo: 'Primer encuentro',
-      imagen: 'https://example.com/momento1.png',
+      imagen: 'https://preview.redd.it/every-time-atsushi-looks-at-dazai-after-he-does-a-good-deed-v0-fbwttikq8az81.jpg?width=1080&crop=smart&auto=webp&s=f186bcdf62f6935a97e52d7425c4e53be0c4174f',
       descripcion: 'El primer encuentro entre Atsushi y Dazai.',
       videoUrl: 'https://www.youtube.com/watch?v=example1',
     ),
     Momento(
       titulo: 'Batalla intensa',
-      imagen: 'https://example.com/momento2.png',
+      imagen: 'https://static.wikia.nocookie.net/bungo-stray-dogs/images/4/4e/Atsushi_atacando_a_Akutagawa.png/revision/latest/scale-to-width-down/1000?cb=20220719195301&path-prefix=es',
       descripcion: 'La batalla entre Akutagawa y Atsushi.',
       videoUrl: 'https://www.youtube.com/watch?v=example2',
     ),
     Momento(
       titulo: 'Revelación impactante',
-      imagen: 'https://example.com/momento3.png',
+      imagen: 'https://preview.redd.it/d804diffnpg91.jpg?auto=webp&s=53a3b83e7ce764d33bfcf8ff676ee2d8fdb68ea1',
       descripcion: 'Dazai revela un secreto crucial.',
       videoUrl: 'https://www.youtube.com/watch?v=example3',
     ),
