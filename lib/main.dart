@@ -134,7 +134,22 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => Placeholder(),
+                      builder: (context) => Scaffold(
+                        appBar : AppBar(title : "Contratame", centerTitle: true),
+                        body : Center(
+                          child : Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+          Image.network(
+              'https://media.licdn.com/dms/image/v2/D4E03AQHOjvZNaFTFRA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1703870839716?e=1744848000&v=beta&t=z80Dv9QXo1zM719UG_tfkiSX_ySmZ4Cm-lD4GgkDJMY'),
+          Text("Jeriel Gomez", style: TextStyle(fontSize: 24)),
+          Text("2023 0296", style: TextStyle(fontSize: 24)),
+        ],
+                            
+                          )
+                        )
+                      ),
                     ),
                   );
                 },
